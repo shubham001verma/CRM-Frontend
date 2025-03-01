@@ -39,6 +39,6 @@ export default defineConfig({
   // plugins: [react(),svgr({
   //   exportAsDefault: true
   // })],
-base:"/CRM-Frontend/",
+base:"/",
   plugins: [svgr(), react()],
 });
