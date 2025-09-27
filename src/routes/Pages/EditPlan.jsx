@@ -6,11 +6,13 @@ import API_BASE_URL from "../../components/Config";
 
 // ✅ Backend ke AVAILABLE_FEATURES ke same list
 const AVAILABLE_FEATURES = [
-  "Unlimited Chat",
-  "Contact View",
+ "Unlimited Chat",
   "Advance Filter",
-  "Profile Boost",
-  "Priority Support",
+  "Profile View",
+  "Contact View",
+  "Photo View",
+  "Video Call",
+  "Calling",
   "See Who Viewed Your Profile"
 ];
 

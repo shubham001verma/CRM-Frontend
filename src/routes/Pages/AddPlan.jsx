@@ -6,12 +6,14 @@ import API_BASE_URL from "../../components/Config";
 
 // ✅ Predefined features (backend ke AVAILABLE_FEATURES ke same hone chahiye)
 const AVAILABLE_FEATURES = [
-  "Unlimited Chat",
-  "Contact View",
+ "Unlimited Chat",
   "Advance Filter",
-  "Profile Boost",
-  "Priority Support",
-  "See Who Viewed Your Profile",
+  "Profile View",
+  "Contact View",
+  "Photo View",
+  "Video Call",
+  "Calling",
+  "See Who Viewed Your Profile"
 ];
 
 const AddPlan = () => {
