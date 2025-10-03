@@ -33,7 +33,7 @@ const TopCard = () => {
 
   const fetchTotalPremiumUsers = async () => {
     try {
-      const res = await axios.get(`${API_BASE_URL}/api/upremium/count`);
+      const res = await axios.get(`${API_BASE_URL}/api/user/premium/count`);
       setTotalPremiumUsers(res.data.premiumUserCount);
     } catch (error) {
       console.error("Total premium users fetch error:", error);

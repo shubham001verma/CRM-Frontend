@@ -140,7 +140,7 @@ const ManageProfile = () => {
                             type="text"
                             name="name"
                             placeholder="Search by name"
-                            value={searchCriteria.name}
+                            value={searchCriteria.fullName}
                             onChange={handleSearchChange}
                             className="px-4 py-2 pl-10 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary dark:bg-gray-800 text-gray-900 dark:text-gray-100"
                         />
@@ -224,7 +224,7 @@ const ManageProfile = () => {
                                         </td>
                                         <td className="table-cell">{profile.fullName}</td>
                                         <td className="table-cell">{profile.gender}</td>
-                                        <td className="table-cell">{profile.religion.name}</td>
+                                        <td className="table-cell">{profile.religion?.name}</td>
                                         <td className="table-cell">{profile.maritalStatus}</td>
                                         <td className="table-cell">
   {profile.isPremium === true ? (

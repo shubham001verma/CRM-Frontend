@@ -6,6 +6,7 @@ import Layout from "@/routes/layout";
 import Page from "@/routes/dashboard/page";
 import Login from "./routes/Pages/Login";
 import EditProfile from "./routes/Pages/EditProfile";
+import ForgotPassword from "./routes/Pages/ForgotPassword";
 
 import ManageUsers from "./routes/Pages/ManageUsers";
 import ManageProfile from "./routes/Pages/ManageProfile";
@@ -55,6 +56,10 @@ function App() {
         {
             path: "/",
             element:  <Login />,
+        },
+        {
+            path: "/forgot-password",
+            element:  <ForgotPassword />,
         },
    
    
