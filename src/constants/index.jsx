@@ -19,7 +19,7 @@ import {
 IconBuildingChurch,
  IconZodiacLeo
 } from "@tabler/icons-react";
-
+import { FaGift } from "react-icons/fa";
 export const navbarLinks = {
   Admin: [
     {
@@ -95,6 +95,11 @@ export const navbarLinks = {
           label: "Plans Management",  
           icon: IconScale,
           path: "/plans",
+        },
+            {
+          label: "Refreal Setting",  
+          icon: FaGift,
+          path: "/refrealsetting",
         },
          {
         label: "Manage Banners",

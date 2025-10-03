@@ -41,10 +41,12 @@ import ManageContact from "./routes/Pages/ManageContact";
 import AddContact from "./routes/Pages/AddContact";
 import EditContact from "./routes/Pages/EditContact";
 
+
 // Terms & Privacy Management
 import ManageTermsPrivacy from "./routes/Pages/ManageTermsPrivacy";
 import AddTermsPrivacy from "./routes/Pages/AddTermsPrivacy";
 import EditTermsPrivacy from "./routes/Pages/EditTermsPrivacy";
+import RefrealSetting from "./routes/Pages/RefrealSetting";
 
 
 
@@ -249,6 +251,11 @@ function App() {
                     path: "/editcontact/:id",
                     index: true,
                     element: <EditContact />,
+                },
+                {
+                    path: "/refrealSetting",
+                    index: true,
+                    element: <RefrealSetting />,
                 },
             ],
         },
